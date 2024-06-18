@@ -1,0 +1,60 @@
+/* App.css */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background: linear-gradient(to right, #000428, #004e92); /* gradient background */
+}
+/* App.css */
+.home-background {
+  background: url('.\images\homepic.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+
+
+.container-fluid {
+  text-align: center;
+}
+
+h1.display-4 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+p.lead {
+  font-size: 1.5rem;
+}
+
+.btn-outline-light {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.content {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for text */
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  h1.display-4 {
+    font-size: 2.5rem;
+  }
+
+  p.lead {
+    font-size: 1.2rem;
+  }
+ 
+}
+.form-label {
+  color: #000 !important; /* Ensure labels are black */
+}
